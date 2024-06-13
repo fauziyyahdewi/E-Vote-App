@@ -95,7 +95,7 @@ export default function DetailOrEditVotes() {
     }
 
     //Mengirim data ke API
-    fetch("/api/votes", {
+    fetch("https://e-vote-app-3122500050.vercel.app/api/votes", {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

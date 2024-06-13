@@ -77,7 +77,7 @@ export default function NewVote() {
 
     setLoading(true);
     //Mengirim data ke API
-    fetch("/api/votes", {
+    fetch("https://e-vote-app-3122500050.vercel.app/api/votes", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
