@@ -92,7 +92,7 @@ export default function NewVote() {
     })
       .then((res) => res.json())
       .then((data) => {
-        router.push("/vote/success");
+        router.push("https://e-vote-app-3122500050.vercel.app/vote/success");
       })
       .finally(() => {
         setLoading(false);
